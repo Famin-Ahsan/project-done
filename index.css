@@ -1,0 +1,326 @@
+.logo{
+    display: flex;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+   gap: 40px;
+   cursor: pointer;
+}
+
+.explore-bg{
+    background-image: url(./Group\ 13\ \(1\)\ \(1\).png);
+    width: 100;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 10px;
+    background-color: black;
+    background-blend-mode: lighten;
+    
+}
+
+.bnnr-txt{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 80px;
+   
+}
+.search-bar{
+    height: 15px;
+    width: 15px;
+    background-color: #FF5400;
+    
+}
+.btn-bar{
+    width: 550px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(255, 255, 255,0.5);
+    align-items: center;
+}
+
+.optn-bar{
+    width: 90px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 22px;
+    border: none;
+
+    
+}
+.btn-find{
+    margin-left: 30px;
+    margin-top: 30px ;
+    background: #FF5400;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .//// first section.//// */
+.header-2{
+    margin-top: 70px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 70px;
+}
+
+
+.about-img{
+    height: 350px;
+    width: 300px;
+}
+
+.common-p{
+    color:#131318B2;
+    font-size: 15px;
+}
+
+/* .////secton-2./// */
+ .header{
+    text-align: center;
+    
+ }
+ .foreign{
+    display: flex;
+    width: 400px;
+    height: 190px;
+    gap: 10px;
+    margin-left: 70px;
+    margin-right: 70px ;
+    margin-top: 50px;
+ }
+ .hotel{
+    display: flex;
+    width: 270px;
+    height: 180px;
+    margin-left: 70px;
+    margin-right: 70px ;
+    gap: 10px;
+    margin-top: 10px;
+
+ }
+ .river{
+    display: flex;
+    width: 400px;
+    height: 190px;
+    gap: 10px;
+    margin-left: 70px;
+    margin-right: 70px ;
+    margin-top: 10px;
+ }
+
+ /* section-3 */
+ .box{
+    display: flex;
+    justify-content: space-between;
+    margin-left:70px ;
+    margin-right: 70px;
+    gap: 10px;
+   
+ }
+
+ .container{
+    height: 200px;
+    width: 400px;
+    background-color:#f9f4ef;
+    padding: 15px;
+    border-radius: 10px;
+    
+ }
+ .container>img{
+    height: 30px;
+    width: 30px;
+
+ }
+#cntner{
+    background-color: #29CEF60D;
+ 
+}
+.container-2{
+    height: 200px;
+    width: 400px;
+    background-color:#f9f4ef;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    /* margin: auto; */
+}
+.container-2>img{
+    height: 30px;
+    width: 30px;
+}
+.pool{
+    background-image: url(./Group\ 39.png);
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.offer{
+    display:flex;
+}
+.offer > img{
+    padding-top: 17px;
+}
+.offer-cntnr{
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+}
+.pool-1{
+    position: absolute;
+    background: #FFFFFFCC;
+    width: 420px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-left: 20px;
+    border-radius: 4px;
+  
+    
+
+}
+.bk-btn{
+    background: #FF5400;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.pool-2{
+    background-image: url(./Group\ 40.png);
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    
+}
+.pool-11{
+    position: absolute;
+    background: #FFFFFFCC;
+    width: 420px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+.pkg-btn{
+    background: #FF5400;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 10px;
+    color: #fff;
+   margin-left: 380px;
+   margin-top: 40px;
+   cursor: pointer;
+}
+/* section-6 */
+.news-ltr{
+    width: 300px;
+    margin-left: 70px;
+    border: 1px solid #FF5400 ;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.input1{
+    border: none;
+    color: #131318 ;
+    background-color: #1313180f;
+    width: 300px;
+    height: 25px;
+    border-radius: 4px;
+}
+.sub{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF5400;
+    color: white;
+    cursor: pointer;
+}
+.travel{
+    background-image: url(./Rectangle\ 8\ \(1\).png);
+    background-position: center;
+    background-size: cover ;
+    width: 380px;
+    height: 300px;
+    margin-right: 70px;
+    border-radius: 8px;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+}
+.save{
+    position: absolute;
+    background-color: #FF5400;
+    text-align: center;
+    gap: none;
+    width: 150px;
+    height: 60px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 225px;
+    margin-top: 215px;
+    transform: rotate(-20deg);
+}
+.ftlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+.ftp{
+    text-align: center;
+    color:#131318B2;
+    font-size: 15px;
+}
+.ftricon{
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.ftrimg{
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.lst{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color:#131318B2;
+    font-size: 15px;
+}
+.op{
+    background-color: #1313180e;
+}
